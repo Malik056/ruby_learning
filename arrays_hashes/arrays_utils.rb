@@ -15,5 +15,5 @@ puts integers
 
 puts "SELECT"
 number = a.select do |element|
-    element.class == "Integer"
+  element.class.to_s == "Integer"
 end
